@@ -12,18 +12,18 @@ body {
 
 nav {
     
-    float: right;
     display: flex;
-    
+
 }
 
 .nav {
     
-    background-color: rosybrown;
+    width: 100%;
+    background-color: wheat;
     color: black;
-    border-right: 2px black;
+    border: solid 1px black;
     text-align: center;
-    padding: 8px;
+    padding: 10px;
     cursor: pointer;
     text-decoration: none;
     
@@ -57,7 +57,8 @@ h1 {
     font-family: "Times";
     font-size: 55px;
     color: white;
-    text-shadow: 10px black;
+    stroke: 10px black;
+    text-shadow: -4px -4px 1px black;
     
 }
 
@@ -68,16 +69,27 @@ h2 {
     left: 20px;
     font-family: "Times";
     font-size: 25px;
-    color: white
+    color: white;
+    text-shadow: -4px -4px 1px black;
+}
+
+#introduktion {
+    
+    display: block;
+    float: left;
+    margin: 5%;
+    
 }
 
 .forsidegrid {
     
-    float: left;
-    width: 20%;
-    text-align: center;
-    margin: 10px;
     display: grid;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 4.1%;
+    font-style: italic;
+    font-size: 14px;
 }
 
 .forsidebillede {
