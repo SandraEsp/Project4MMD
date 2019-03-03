@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-color: skyblue;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+nav {
+    
+    float: right;
+    display: flex;
+    
+}
+
+.nav {
+    
+    background-color: rosybrown;
+    color: black;
+    border-right: 2px black;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.activebutton {
+    
+    
+}
+
+.nav:hover {
+    
+    background-color: aliceblue;
+}
