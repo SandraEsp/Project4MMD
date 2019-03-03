@@ -31,7 +31,7 @@ nav {
 
 .activebutton {
     
-    
+    background-color: burlywood;
 }
 
 .nav:hover {
@@ -44,15 +44,48 @@ nav {
     width: 100%;
 }
 
-#information {
+#header {
     
-    float: left;
-    width: 100%;
-    text-align: center;
-    margin: 10px;
+    position: relative;
 }
 
-#footer {
+h1 {
+    
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+    font-family: "Times";
+    font-size: 55px;
+    color: white;
+    text-shadow: 10px black;
+    
+}
+
+h2 {
+    
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-family: "Times";
+    font-size: 25px;
+    color: white
+}
+
+.forsidegrid {
+    
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+    display: grid;
+}
+
+.forsidebillede {
+    
+    width: 100%;
+}
+
+.footer {
     
     position: fixed;
     bottom: 0;
