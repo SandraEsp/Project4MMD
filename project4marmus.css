@@ -33,7 +33,6 @@ h1 {
     font-family: "Times";
     font-size: 55px;
     color: white;
-    stroke: 10px black;
     text-shadow: -4px -4px 1px black;
     
 }
@@ -126,7 +125,7 @@ main {
     border: 1px solid black;
 }
 
-#sejl{
+.marbillede{
     
     width: 30%;
     margin: 10%;
@@ -139,7 +138,7 @@ main {
     
 }
 
-#arrangementer {
+.arrangementer {
     
     float: right;
     margin-right: 16%;
