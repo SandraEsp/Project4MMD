@@ -100,10 +100,10 @@ main {
     
     display: block;
     float: left;
-    width: 80%;
+    width: 70%;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 3%;
     
 }
@@ -115,6 +115,7 @@ main {
     width: 25%;
     text-align: center;
     margin: 4.1%;
+    margin-bottom: 20%;
     font-style: italic;
     font-size: 14px;
 }
@@ -122,6 +123,22 @@ main {
 .forsidebillede {
     
     width: 100%;
+}
+
+#sejl{
+    
+    width: 35%;
+    margin: 10%;
+    float: left;
+    
+}
+
+hr {
+    
+    border: 3px solid darkblue;
+    float: left;
+    width: 100%;
+    
 }
 
 .aabningstider {
@@ -132,7 +149,8 @@ main {
     float: left;
     font-size: 12px;
     padding: 0px;
-    
+    margin-top: 2%;
+    margin-bottom: 2%;
     
 }
 
@@ -143,5 +161,7 @@ main {
     text-align: center;
     float: right;
     font-size: 12px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     
 }
