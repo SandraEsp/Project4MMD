@@ -123,14 +123,54 @@ main {
 .forsidebillede {
     
     width: 100%;
+    border: 1px solid black;
 }
 
 #sejl{
     
-    width: 35%;
+    width: 30%;
     margin: 10%;
+    margin-right: 0%;
+    margin-bottom: 10%;
+    margin-top: 3%;
     float: left;
+    clear: both;
+    border: 1px solid black;
     
+}
+
+#arrangementer {
+    
+    float: right;
+    margin-right: 16%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+    margin-top: 3%;
+    width: 40%;
+    
+}
+
+button {
+    
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    float: left;
+    width: 50%;
+}
+
+button:hover {
+    
+    background-color: black;
+    cursor: pointer;
 }
 
 hr {
